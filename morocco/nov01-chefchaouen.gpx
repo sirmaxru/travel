@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1"
+     creator="Claude Code - Travel Planning"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <name>1 ноября 2025 - Фес → Шефшауэн</name>
+    <desc>Маршрут переезда из Феса в Шефшауэн с посещением синей медины, касбы и заката на испанской мечети. Семейная поездка с детьми 7 и 10 лет.</desc>
+    <author>
+      <name>Travel Planning Morocco</name>
+    </author>
+    <time>2025-11-01T07:00:00Z</time>
+    <keywords>Morocco, Chefchaouen, Blue City, Spanish Mosque, Sunset, Family Travel</keywords>
+  </metadata>
+
+  <!-- ========================================== -->
+  <!-- WAYPOINTS (Точки интереса)                 -->
+  <!-- ========================================== -->
+
+  <!-- УТРО: ФЕС -->
+  <wpt lat="34.0693" lon="-4.9733">
+    <ele>400</ele>
+    <time>2025-11-01T07:00:00Z</time>
+    <name>START: Риад Фес</name>
+    <desc>🏃 7:00-8:15 - Утренняя пробежка в Фесе (40-45 мин)
+🍽️ 8:30-10:30 - Завтрак + check-out
+🚗 10:30 - Выезд в Шефшауэн</desc>
+    <sym>Lodging</sym>
+    <type>start</type>
+  </wpt>
+
+  <!-- ДОРОГА -->
+  <wpt lat="34.8000" lon="-5.5833">
+    <ele>350</ele>
+    <time>2025-11-01T12:00:00Z</time>
+    <name>Ouazzane - Остановка</name>
+    <desc>⏰ 12:00-12:20 (20 мин)
+🚻 Туалет, размять ноги
+💧 Купить воду/снеки
+⚡ Купить продукты для перекуса в Шефшауэне!
+⛽ Заправка если нужно</desc>
+    <sym>Gas Station</sym>
+    <type>rest</type>
+  </wpt>
+
+  <!-- ШЕФШАУЭН: ЖИЛЬЁ -->
+  <wpt lat="35.1688" lon="-5.2686">
+    <ele>600</ele>
+    <time>2025-11-01T14:00:00Z</time>
+    <name>Шефшауэн: Avenue Mohammed Abdou</name>
+    <desc>⏰ 14:00-14:20 - Check-in (20 мин)
+🏠 Жильё с парковкой
+⚡ 14:20-14:40 - Быстрый перекус (20 мин)
+📞 Забронировать Tissemlal на 19:15: +212 661-264927</desc>
+    <sym>Lodging</sym>
+    <type>accommodation</type>
+  </wpt>
+
+  <!-- МЕДИНА -->
+  <wpt lat="35.1698" lon="-5.2697">
+    <ele>590</ele>
+    <time>2025-11-01T14:50:00Z</time>
+    <name>Bab Souk - Вход в медину</name>
+    <desc>⏰ 14:50 - Вход в медину
+🚶 10 минут пешком от Avenue Mohammed Abdou
+🔵 Начало синих улочек!</desc>
+    <sym>City</sym>
+    <type>landmark</type>
+  </wpt>
+
+  <wpt lat="35.1694" lon="-5.2681">
+    <ele>585</ele>
+    <time>2025-11-01T14:50:00Z</time>
+    <name>Place Outa el Hammam - Главная площадь</name>
+    <desc>⏰ 14:50-15:05 (15 мин)
+🕌 Большая мечеть с восьмиугольным минаретом
+☕ Кафе и рестораны вокруг
+📸 Фото-пауза
+👨‍👩‍👧‍👦 Квест для детей: посчитать кафе, найти минарет</desc>
+    <sym>City (Large)</sym>
+    <type>landmark</type>
+  </wpt>
+
+  <wpt lat="35.1694" lon="-5.2681">
+    <ele>585</ele>
+    <time>2025-11-01T15:05:00Z</time>
+    <name>Kasba Museum - Крепость-музей</name>
+    <desc>⏰ 15:05-15:55 (50 мин) ⭐⭐
+💰 Вход: 60 дирхам/взрослый, дети до 12 лет БЕСПЛАТНО!
+🏰 Этнографический музей (15-20 мин)
+🌳 Андалузский сад (10-15 мин)
+🗼 Подъём на башню (5-10 мин)
+📸 Вид на медину с башни - обязательно!
+👨‍👩‍👧‍👦 Квест для детей: найти оружие, музыкальные инструменты, керамику</desc>
+    <sym>Museum</sym>
+    <type>museum</type>
+  </wpt>
+
+  <!-- СИНИЕ УЛОЧКИ (примерный центр блуждания) -->
+  <wpt lat="35.1695" lon="-5.2675">
+    <ele>585</ele>
+    <time>2025-11-01T15:55:00Z</time>
+    <name>Синие улочки медины</name>
+    <desc>⏰ 15:55-16:55 (1 час) ⭐⭐⭐
+💙 Бродить по синим переулкам!
+📸 Фото-точки: Rue Kharrazine, Derb Tizimi, синие лестницы
+👨‍👩‍👧‍👦 Квест "Охота за оттенками синего": найти 10 оттенков, синего кота, самую синюю дверь
+🧡 Said's Orange Juice Shop - свежий сок (~10-15 дирхам)</desc>
+    <sym>Scenic Area</sym>
+    <type>photo_spot</type>
+  </wpt>
+
+  <wpt lat="35.1730" lon="-5.2630">
+    <ele>595</ele>
+    <time>2025-11-01T16:55:00Z</time>
+    <name>Ras El Maa - Водопад</name>
+    <desc>⏰ 16:55-17:10 (15 мин) ⭐⭐
+💧 "Голова воды" - источник города
+👗 Местные стирают бельё - колоритная сцена
+🌿 Граница медины и природы
+👨‍👩‍👧‍👦 Квест: посчитать каскады, потрогать воду
+⚠️ НЕ ЗАДЕРЖИВАЙТЕСЬ! Нужно успеть на закат!</desc>
+    <sym>Water Source</sym>
+    <type>waterfall</type>
+  </wpt>
+
+  <!-- ИСПАНСКАЯ МЕЧЕТЬ -->
+  <wpt lat="35.1700" lon="-5.2650">
+    <ele>600</ele>
+    <time>2025-11-01T17:10:00Z</time>
+    <name>Bab El Onsar - Начало тропы к мечети</name>
+    <desc>⏰ 17:10 - Начало подъёма
+🥾 1.5 км, 63 м вверх
+⏱️ 30 минут подъём
+💧 Вода с собой обязательно!
+🧥 Куртки с собой!</desc>
+    <sym>Trail Head</sym>
+    <type>trailhead</type>
+  </wpt>
+
+  <wpt lat="35.1752" lon="-5.2620">
+    <ele>663</ele>
+    <time>2025-11-01T17:40:00Z</time>
+    <name>Spanish Mosque - ЗАКАТ</name>
+    <desc>⏰ 17:40-18:35 (55 мин) ⭐⭐⭐ MUST-SEE!
+🕌 Испанская мечеть (1920-е, никогда не использовалась)
+🌅 18:26 - ТОЧНОЕ ВРЕМЯ ЗАКАТА!
+🏔️ ЛУЧШИЙ ВИД на весь синий город и горы Риф!
+📸 НЕВЕРОЯТНЫЕ ФОТО - панорама медины с высоты
+👨‍👩‍👧‍👦 Квест: посчитать ступеньки (~200-250), найти лучший ракурс, послушать тишину гор
+⏰ Не спешите! 46 минут до заката, закат, 9 минут после
+🧥 Ветрено и холодно - куртки обязательны!
+🔦 18:35 начало спуска (30 мин)
+💡 18:35-18:52 светло (гражданские сумерки)
+💡 18:52-19:05 сумерки (нужны фонарики телефонов)</desc>
+    <sym>Summit</sym>
+    <type>scenic_viewpoint</type>
+  </wpt>
+
+  <!-- УЖИН -->
+  <wpt lat="35.1695" lon="-5.2675">
+    <ele>585</ele>
+    <time>2025-11-01T19:15:00Z</time>
+    <name>Restaurant Tissemlal - Ужин на крыше</name>
+    <desc>⏰ 19:15-21:00 (1ч 45м) ⭐⭐
+🏠 Rue Sidi Ahmed Boukhantach, 22
+🌃 НА КРЫШЕ с видом на вечернюю медину!
+🍽️ Марокканская кухня: тажины, кускус, пастилла
+💰 100-150 дирхам/чел (~400-600 на семью)
+💰 ТОЛЬКО НАЛИЧНЫЕ ДИРХАМЫ! Карты не принимают!
+⭐ "Лучшая еда в Марокко" (отзывы 2024)
+🕯️ Романтичная атмосфера: свечи, фонари
+📞 Забронировано на 19:15: +212 661-264927
+⏰ Запас на медленное марокканское обслуживание</desc>
+    <sym>Restaurant</sym>
+    <type>restaurant</type>
+  </wpt>
+
+  <!-- ВЕЧЕРНЯЯ МЕДИНА -->
+  <wpt lat="35.1695" lon="-5.2680">
+    <ele>585</ele>
+    <time>2025-11-01T21:00:00Z</time>
+    <name>Вечерняя медина - Прогулка</name>
+    <desc>⏰ 21:00-22:00 (1 час) ⭐⭐
+💙 Медина освещена фонарями - атмосферно!
+✅ Безопасно - можно гулять с детьми
+🛍️ Магазины открыты - без давления
+📸 Синие стены в искусственном освещении
+🍵 Мятный чай to-go
+🎨 Совершенно другая атмосфера чем днём!</desc>
+    <sym>City (Small)</sym>
+    <type>evening_walk</type>
+  </wpt>
+
+  <!-- ФИНИШ -->
+  <wpt lat="35.1688" lon="-5.2686">
+    <ele>600</ele>
+    <time>2025-11-01T22:10:00Z</time>
+    <name>ФИНИШ: Avenue Mohammed Abdou</name>
+    <desc>⏰ 22:10+ - Возврат домой
+🚶 10 минут обратно через Bab Souk
+💤 Отдых, сон
+🏃 Завтра: утренняя пробежка 7:30 или 8:00
+🌅 Завтра: пустая медина 9:00-10:00
+🚗 Завтра: 11:00 check-out → Танжер</desc>
+    <sym>Flag, Blue</sym>
+    <type>finish</type>
+  </wpt>
+
+  <!-- ========================================== -->
+  <!-- TRACKS (Треки)                              -->
+  <!-- ========================================== -->
+
+  <trk>
+    <name>Маршрут 1 ноября: Фес → Шефшауэн</name>
+    <desc>Полный маршрут дня: автомобильная дорога + пеший маршрут по медине + подъём на испанскую мечеть</desc>
+    <type>Driving + Hiking</type>
+
+    <!-- СЕГМЕНТ 1: Дорога Фес → Шефшауэн -->
+    <trkseg>
+      <name>Дорога: Фес → Ouazzane → Шефшауэн</name>
+      <trkpt lat="34.0693" lon="-4.9733">
+        <ele>400</ele>
+        <time>2025-11-01T10:30:00Z</time>
+        <name>Старт: Фес</name>
+      </trkpt>
+      <trkpt lat="34.2000" lon="-5.1000">
+        <ele>380</ele>
+        <time>2025-11-01T10:50:00Z</time>
+      </trkpt>
+      <trkpt lat="34.4000" lon="-5.3000">
+        <ele>360</ele>
+        <time>2025-11-01T11:10:00Z</time>
+      </trkpt>
+      <trkpt lat="34.6000" lon="-5.4500">
+        <ele>350</ele>
+        <time>2025-11-01T11:40:00Z</time>
+      </trkpt>
+      <trkpt lat="34.8000" lon="-5.5833">
+        <ele>350</ele>
+        <time>2025-11-01T12:00:00Z</time>
+        <name>Остановка: Ouazzane</name>
+      </trkpt>
+      <trkpt lat="34.9000" lon="-5.4500">
+        <ele>400</ele>
+        <time>2025-11-01T12:30:00Z</time>
+      </trkpt>
+      <trkpt lat="35.0000" lon="-5.3500">
+        <ele>480</ele>
+        <time>2025-11-01T13:00:00Z</time>
+        <name>Горы Риф - серпантин</name>
+      </trkpt>
+      <trkpt lat="35.0800" lon="-5.2900">
+        <ele>560</ele>
+        <time>2025-11-01T13:30:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1688" lon="-5.2686">
+        <ele>600</ele>
+        <time>2025-11-01T14:00:00Z</time>
+        <name>Финиш: Шефшауэн</name>
+      </trkpt>
+    </trkseg>
+
+    <!-- СЕГМЕНТ 2: Пеший маршрут Avenue → Медина → Водопад -->
+    <trkseg>
+      <name>Пешком: Avenue Mohammed Abdou → Медина → Водопад</name>
+      <trkpt lat="35.1688" lon="-5.2686">
+        <ele>600</ele>
+        <time>2025-11-01T14:40:00Z</time>
+        <name>Старт: Avenue Mohammed Abdou</name>
+      </trkpt>
+      <trkpt lat="35.1693" lon="-5.2691">
+        <ele>595</ele>
+        <time>2025-11-01T14:43:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1698" lon="-5.2697">
+        <ele>590</ele>
+        <time>2025-11-01T14:50:00Z</time>
+        <name>Bab Souk - Вход в медину</name>
+      </trkpt>
+      <trkpt lat="35.1696" lon="-5.2690">
+        <ele>588</ele>
+        <time>2025-11-01T14:52:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1694" lon="-5.2681">
+        <ele>585</ele>
+        <time>2025-11-01T14:50:00Z</time>
+        <name>Place Outa el Hammam</name>
+      </trkpt>
+      <trkpt lat="35.1695" lon="-5.2678">
+        <ele>585</ele>
+        <time>2025-11-01T15:55:00Z</time>
+        <name>Синие улочки</name>
+      </trkpt>
+      <trkpt lat="35.1700" lon="-5.2670">
+        <ele>587</ele>
+        <time>2025-11-01T16:20:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1710" lon="-5.2650">
+        <ele>590</ele>
+        <time>2025-11-01T16:40:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1720" lon="-5.2640">
+        <ele>593</ele>
+        <time>2025-11-01T16:50:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1730" lon="-5.2630">
+        <ele>595</ele>
+        <time>2025-11-01T16:55:00Z</time>
+        <name>Ras El Maa - Водопад</name>
+      </trkpt>
+    </trkseg>
+
+    <!-- СЕГМЕНТ 3: Подъём к испанской мечети -->
+    <trkseg>
+      <name>Хайкинг: Водопад → Испанская мечеть (1.5 км вверх)</name>
+      <trkpt lat="35.1730" lon="-5.2630">
+        <ele>595</ele>
+        <time>2025-11-01T17:10:00Z</time>
+        <name>Старт подъёма</name>
+      </trkpt>
+      <trkpt lat="35.1700" lon="-5.2650">
+        <ele>600</ele>
+        <time>2025-11-01T17:10:00Z</time>
+        <name>Bab El Onsar</name>
+      </trkpt>
+      <trkpt lat="35.1710" lon="-5.2645">
+        <ele>610</ele>
+        <time>2025-11-01T17:15:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1720" lon="-5.2640">
+        <ele>620</ele>
+        <time>2025-11-01T17:20:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1730" lon="-5.2635">
+        <ele>630</ele>
+        <time>2025-11-01T17:25:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1740" lon="-5.2630">
+        <ele>645</ele>
+        <time>2025-11-01T17:32:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1752" lon="-5.2620">
+        <ele>663</ele>
+        <time>2025-11-01T17:40:00Z</time>
+        <name>⭐ Spanish Mosque - ЗАКАТ в 18:26!</name>
+      </trkpt>
+    </trkseg>
+
+    <!-- СЕГМЕНТ 4: Спуск от мечети → Ужин → Вечерняя медина → Домой -->
+    <trkseg>
+      <name>Спуск → Ужин → Вечерняя медина → Avenue</name>
+      <trkpt lat="35.1752" lon="-5.2620">
+        <ele>663</ele>
+        <time>2025-11-01T18:35:00Z</time>
+        <name>Начало спуска (после заката)</name>
+      </trkpt>
+      <trkpt lat="35.1740" lon="-5.2630">
+        <ele>645</ele>
+        <time>2025-11-01T18:43:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1730" lon="-5.2635">
+        <ele>630</ele>
+        <time>2025-11-01T18:50:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1720" lon="-5.2640">
+        <ele>620</ele>
+        <time>2025-11-01T18:55:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1700" lon="-5.2650">
+        <ele>600</ele>
+        <time>2025-11-01T19:05:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1695" lon="-5.2675">
+        <ele>585</ele>
+        <time>2025-11-01T19:15:00Z</time>
+        <name>Restaurant Tissemlal</name>
+      </trkpt>
+      <trkpt lat="35.1695" lon="-5.2680">
+        <ele>585</ele>
+        <time>2025-11-01T21:00:00Z</time>
+        <name>Вечерняя медина</name>
+      </trkpt>
+      <trkpt lat="35.1698" lon="-5.2697">
+        <ele>590</ele>
+        <time>2025-11-01T22:00:00Z</time>
+        <name>Bab Souk</name>
+      </trkpt>
+      <trkpt lat="35.1693" lon="-5.2691">
+        <ele>595</ele>
+        <time>2025-11-01T22:05:00Z</time>
+      </trkpt>
+      <trkpt lat="35.1688" lon="-5.2686">
+        <ele>600</ele>
+        <time>2025-11-01T22:10:00Z</time>
+        <name>Финиш: Avenue Mohammed Abdou</name>
+      </trkpt>
+    </trkseg>
+
+  </trk>
+
+  <!-- ========================================== -->
+  <!-- ROUTES (Маршруты для навигации)            -->
+  <!-- ========================================== -->
+
+  <rte>
+    <name>Ключевые точки дня (хронологически)</name>
+    <desc>Основные остановки маршрута 1 ноября в хронологическом порядке</desc>
+    <rtept lat="34.0693" lon="-4.9733">
+      <name>1. Риад Фес (7:00)</name>
+    </rtept>
+    <rtept lat="34.8000" lon="-5.5833">
+      <name>2. Ouazzane остановка (12:00)</name>
+    </rtept>
+    <rtept lat="35.1688" lon="-5.2686">
+      <name>3. Avenue Mohammed Abdou (14:00)</name>
+    </rtept>
+    <rtept lat="35.1698" lon="-5.2697">
+      <name>4. Bab Souk (14:50)</name>
+    </rtept>
+    <rtept lat="35.1694" lon="-5.2681">
+      <name>5. Place Outa el Hammam (14:50)</name>
+    </rtept>
+    <rtept lat="35.1694" lon="-5.2681">
+      <name>6. Kasba Museum (15:05)</name>
+    </rtept>
+    <rtept lat="35.1730" lon="-5.2630">
+      <name>7. Ras El Maa (16:55)</name>
+    </rtept>
+    <rtept lat="35.1752" lon="-5.2620">
+      <name>8. Spanish Mosque - ЗАКАТ 18:26! (17:40)</name>
+    </rtept>
+    <rtept lat="35.1695" lon="-5.2675">
+      <name>9. Tissemlal ужин (19:15)</name>
+    </rtept>
+    <rtept lat="35.1688" lon="-5.2686">
+      <name>10. Avenue Mohammed Abdou (22:10)</name>
+    </rtept>
+  </rte>
+
+</gpx>
