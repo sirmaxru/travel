@@ -1,0 +1,91 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Repository Purpose
+
+Travel planning for a family trip to China (Beijing and Shanghai) from December 29, 2025 to January 9, 2026.
+
+## Travelers
+
+Two adults + two girls (ages 7 and 10)
+
+## Content Structure
+
+- `dayline.md` — Main trip overview with all days, hotels, and booking status
+- `dayline` — Raw notes and booking links (source of truth for bookings)
+- Date-specific files (e.g., `2025-12-29.md`) — Detailed day plans
+
+## Trip Overview
+
+### Hotels
+1. **Beijing 1 (Dec 28 - Jan 4)**: Yongli International Service Apartment, Sanlitun/Gongti area
+2. **Shanghai (Jan 4-7)**: 上海希之民宿, Xintiandi/Huaihai Rd area
+3. **Beijing 2 (Jan 7-9)**: East Sacred Hutong Culture Hotel, Nanluoguxiang area
+
+### Key Dates
+- Dec 29: Arrival in Beijing (PKX), flight MU 2076
+- Dec 30: Great Wall (Mutianyu) — MUBUS tour booked
+- Dec 31: Forbidden City + Tea ceremony (booked)
+- Jan 1: New Year holiday
+- Jan 2: Zoo + Tea ceremony
+- Jan 3: Universal Studios Beijing (booked)
+- Jan 4: Train to Shanghai
+- Jan 6: Possible Shanghai Disneyland
+- Jan 7: Train back to Beijing
+- Jan 9: Departure
+
+## File Conventions
+
+- UTF-8 encoding for all markdown files (required for Cyrillic text)
+- Always add a newline at the end of files
+- GPS coordinates format: `39.9244, 116.4380`
+- Times in 24-hour format: `7:00-8:15`
+- Currency in Chinese Yuan (¥) with conversions to rubles where helpful
+
+## Common Sections in Day Plans
+
+1. Flight/Transfer details (where applicable)
+2. Daily schedule with times (📅 ПЛАН ДНЯ)
+3. Activities with GPS coordinates
+4. Meals and restaurant recommendations
+5. Budget breakdown (💰 БЮДЖЕТ НА ДЕНЬ)
+6. Packing checklist (📝 ЧТО ВЗЯТЬ С СОБОЙ)
+7. Coordinates table (📍 КООРДИНАТЫ)
+8. Important reminders (⚠️ ВАЖНЫЕ НАПОМИНАНИЯ)
+
+## Emoji Usage
+
+- ✈️ Flights/travel
+- 🚕 Taxi/transfers
+- 🚇 Metro
+- 🏨 Hotels
+- 🏯 Cultural sites
+- 🍽️ Meals
+- 🛒 Shopping
+- 📍 GPS coordinates
+- 💰 Budget/costs
+- ⚠️ Important warnings
+- ❄️ Weather info
+
+## China-Specific Notes
+
+- VPN required (Google, WhatsApp don't work)
+- WeChat is essential for communication
+- Alipay/WeChat Pay for payments
+- Time zone: Beijing +8 (Moscow +5)
+- December weather: around -5°C, dress warmly
+- Drink only bottled water
+- Address in Chinese characters essential for taxis
+
+## Planning Rules
+
+1. Research popular attractions
+2. Find hidden gems worth visiting
+3. Verify coordinates via Google Maps (AI sometimes gives wrong ones)
+4. Confirm time constraints for the city
+5. Estimate time needed for each attraction
+6. Check if everything fits in available time
+7. If not, propose optimal alternatives
+8. Always allocate time for leisurely walks
+9. For sunset photos, account for surrounding terrain (buildings/mountains) that may cause earlier effective sunset
