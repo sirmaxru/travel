@@ -77,6 +77,50 @@ Two adults + two girls (ages 7 and 10)
 - December weather: around -5°C, dress warmly
 - Drink only bottled water
 - Address in Chinese characters essential for taxis
+- Fireworks restricted in Beijing (environmental reasons) — only "cold fireworks" (sparklers) allowed
+
+## Maps and Navigation
+
+**IMPORTANT: Google Maps doesn't work well in China. Use AMap (高德地图) instead!**
+
+- **AMap (高德地图)** — primary navigation app for China
+- Use **Chinese names** for searching locations, not GPS coordinates
+- Short AMap links (surl.amap.com) can only be generated inside the app
+- Format for locations in files: provide Chinese name + AMap link if available
+
+Example location format:
+```markdown
+| Место | AMap ссылка | Китайское название |
+|-------|-------------|-------------------|
+| Sijiminfu | https://surl.amap.com/xxx | 四季民福烤鸭店 |
+```
+
+If no AMap link available, provide Chinese name for manual search:
+```markdown
+📍 Искать в AMap: **海底捞火锅(三里屯SOHO店)**
+```
+
+## Useful Chinese Apps
+
+- **AMap (高德地图)** — navigation, better than Google Maps
+- **Dianping (大众点评)** — restaurant reviews and info (like Yelp)
+- **Meituan (美团)** — food delivery
+- **Ele.me (饿了么)** — food delivery
+- **DiDi (滴滴)** — taxi (like Uber)
+
+## Beijing Practical Info
+
+### Forbidden City (故宫)
+- Winter hours: 8:30-16:30
+- Last entry: 15:30
+- Enter through South (Meridian Gate / 午门)
+- Exit through North (Shenwumen / 神武门)
+- Low season (Nov-Mar): fewer crowds, ¥40/person
+
+### Tiananmen Square Access
+- **Passport required** for security check
+- Security queue: 10-30+ min (longer on holidays)
+- Route to Forbidden City: Tiananmen East metro → Security → Square → Tiananmen Gate → Duanmen → Meridian Gate
 
 ## Planning Rules
 
