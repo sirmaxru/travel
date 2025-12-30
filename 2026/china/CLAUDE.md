@@ -126,10 +126,11 @@ If no AMap link available, provide Chinese name for manual search:
 
 1. Research popular attractions
 2. Find hidden gems worth visiting
-3. Verify coordinates via Google Maps (AI sometimes gives wrong ones)
+3. **Verify locations via AMap** (use Chinese names, not GPS coordinates)
 4. Confirm time constraints for the city
 5. Estimate time needed for each attraction
 6. Check if everything fits in available time
 7. If not, propose optimal alternatives
 8. Always allocate time for leisurely walks
 9. For sunset photos, account for surrounding terrain (buildings/mountains) that may cause earlier effective sunset
+10. For restaurants, check **Dianping (大众点评)** for hours and reviews
