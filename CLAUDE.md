@@ -4,60 +4,72 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a personal travel planning repository for a trip to Morocco. It contains detailed itineraries, schedules, and practical information for visiting various cities in Morocco.
+Personal family travel-planning repository. It holds detailed itineraries, day schedules,
+and practical information for trips to various countries. Each trip lives in its own folder
+and may have its own country-specific `CLAUDE.md`.
 
-## Content Structure
+## Folder Structure
 
-- Files are named with the format: `{city}-{number}.md` (e.g., `fes-01.md`)
-- Itineraries are written in Russian
-- Each file contains detailed day plans with:
-  - Time-based schedules with emoji indicators (🏃 for morning activities, 🕌 for day activities, 🛍️ for shopping, 🍽️ for meals)
-  - GPS coordinates for key locations
-  - Budget estimates in Moroccan Dirhams (MAD)
-  - Practical tips and reminders
-  - Family-friendly activities and tips for children
+- Trips are organized as `YYYY/NN-country/` — e.g. `2025/11-morocco/`, `2026/01-china/`, `2026/06-vietnam/`.
+- Each trip folder has its own `CLAUDE.md` with **country-specific** guidance (currency, maps,
+  apps, weather, local rules, visa notes). **Read it before planning that trip** — it overrides
+  generic assumptions here.
+- Inside a trip folder:
+  - `dayline.md` — master overview: all days, hotels, flights/transfers, booking status, links to day files
+  - `YYYY-MM-DD.md` — detailed day plans
+  - `template-day.md` — reusable day-plan template (copy it to start a new day)
+- Itineraries are written in **Russian**.
+
+## Travelers (Информация о путешествующих)
+
+Двое взрослых и 2 девочки 8 и 11 лет.
 
 ## File Conventions
 
-- Use UTF-8 encoding for all markdown files (required for Cyrillic text)
-- Always add a newline at the end of files
-- Coordinates are formatted as: `34.0661, -4.9710`
-- Times use 24-hour format: `7:00-8:15`
-- Currency amounts include "дирхам" or abbreviations like "дирхам/чел" (dirhams per person)
+- UTF-8 encoding for all markdown files (required for Cyrillic text)
+- **Always add a newline at the end of every file** (yaml, j2, md, …)
+- GPS coordinates format: `34.0661, -4.9710`
+- Times in 24-hour format: `7:00-8:15`
+- Currency: use the **local currency of the trip** (see the trip's `CLAUDE.md`); add a rough
+  conversion to rubles where helpful
 
-## Common Sections in Itineraries
+## Common Sections in Day Plans
 
-1. Morning activities (УТРО)
-2. Day activities (ДЕНЬ)
-3. Lunch + rest period (ОБЕД + ОТДЫХ)
-4. Evening activities (ВЕЧЕР)
-5. Dinner (УЖИН)
-6. Summary timeline table (ИТОГОВЫЙ ТАЙМЛАЙН)
-7. Budget breakdown (БЮДЖЕТ НА ДЕНЬ)
-8. Packing list (ЧТО ВЗЯТЬ С СОБОЙ)
-9. Saved coordinates (КООРДИНАТЫ)
-10. Important reminders (ВАЖНЫЕ НАПОМИНАНИЯ)
+1. Концепция дня
+2. Маршрут дня (схема перемещений)
+3. Расписание по времени (с эмодзи активностей)
+4. Места с GPS-координатами
+5. Еда / рестораны
+6. Погода и закаты
+7. 💰 Бюджет на день
+8. 📝 Что взять с собой
+9. 📍 Координаты (таблица)
+10. ⚠️ Важные напоминания
+11. Краткий план
+
+## Emoji Usage
+
+- ✈️ перелёты · 🚕 такси · 🚇 метро · 🚄 поезд · 🚶 пешком · 🚐 трансфер
+- 🏨 отели · 🍽️ еда · 🛒 шопинг
+- 📍 координаты · 💰 бюджет · ⚠️ важное · 🌤️ погода · 🌅 закат/рассвет
+
+## Правила планирования для города или места
+
+1. найти список популярных достопримечательностей
+2. найти список достопримечательностей, которые не очень известны, но заслуживают внимания
+2-1. уточнить координаты через Google Maps с помощью haiku — ты иногда указываешь совсем не те
+3. уточнить временные рамки в городе
+4. понять, сколько надо времени на посещение достопримечательностей
+5. уточнить, можем ли мы посмотреть всё в заданное время
+6. если не можем — предложить оптимальный вариант
+7. не забывать закладывать время просто погулять
+8. когда планируешь вечернее фото, учитывай не только реальное время заката, но и горы вокруг,
+   из-за которых закат может быть раньше расчётного
 
 ## Editing Guidelines
 
-- Maintain consistent emoji usage for different activity types
-- Keep time allocations realistic for family travel with children
-- Include practical details (costs, coordinates, phone numbers where relevant)
+- Maintain consistent emoji usage for activity types
+- Keep time allocations realistic for family travel with two children (7 and 10)
+- Include practical details (costs, coordinates, phone numbers, opening hours)
 - Preserve the conversational, helpful tone of the content
 - Include child-friendly activities and educational moments
-
-## Информация о путешествующих
-Двое взрослых и 2 девочки 7 и 10 лет
-
-## правила планирования для города или места
-1. найти список популярных достопримечательностей
-2. найти список достопримечательностей которые не очень известны, но заслуживают внимания
-2-1. Уточнить через гугл maps с использованием haiku координаты, ты иногда указываешь совсем не те
-3. уточнить временные рамки в городе
-4. понять сколько надо времени для посещения достопримечательностей
-5. уточнить можем ли мы посмотреть все в заданное время
-6. Если не можем, предложит оптимальный вариант
-7. не забывать закладывать время на просто погулять
-8. Когда планируешь вечернее фото учитывай не только реальное время заката но и горы вокруг изза которых закат может быть раньше расчетного
-
-
