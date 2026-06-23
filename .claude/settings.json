@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash /Users/sirmax/work/home/travel/.claude/scripts/sync-to-icloud.sh)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/sirmax/work/home/travel/.claude/scripts/sync-mark-pending.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash /Users/sirmax/work/home/travel/.claude/scripts/sync-stop-check.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
