@@ -114,7 +114,7 @@ China-специфика (AMap, VPN, Alipay/WeChat Pay) — см. `2026/01-china
 | 🌳 People's Park | [30.6571, 104.0572](https://maps.apple.com/?q=30.6571,104.0572) | 人民公园 / 鹤鸣茶社 |
 | 🏮 Jinli + Wuhou Shrine | [30.6485, 104.0474](https://maps.apple.com/?q=30.6485,104.0474) | 锦里古街 / 武侯祠 |
 | 🎭 Опера Shufeng Yayun | [30.6551, 104.0408](https://maps.apple.com/?q=30.6551,104.0408) | 蜀风雅韵 (Culture Park) |
-| 🏨 Отель Ханой | [21.0326, 105.8539](https://maps.apple.com/?q=21.0326,105.8539) | 45 Hang Buom, Старый квартал |
+| 🏨 Отель Ханой | [21.0354, 105.8535](https://maps.apple.com/?q=21.0354,105.8535) | 45 Hang Buom (угол Mã Mây), Старый квартал |
 | 🎭 Театр кукол Thang Long | [21.0317, 105.8533](https://maps.apple.com/?q=21.0317,105.8533) | 57B Đinh Tiên Hoàng, ~5 мин от отеля |
 | 🏞️ Озеро Hoàn Kiếm + Ngọc Sơn | [21.0307, 105.8524](https://maps.apple.com/?q=21.0307,105.8524) | мост The Húc, храм на островке |
 | 🏯 Мавзолей Хо Ши Мина (Ба Динь) | [21.0353, 105.8342](https://maps.apple.com/?q=21.0353,105.8342) | + One Pillar [21.0357, 105.8335], музей [21.0356, 105.8326] |
